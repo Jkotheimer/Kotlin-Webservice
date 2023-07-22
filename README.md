@@ -1,14 +1,22 @@
-# Spring Boot Kotlin sample project
+# User Management Web Service
 
-This is the source code for a sample Spring Boot application developed with Kotlin and Spring Data JPA.
+This repository is host to a web service written in Kotlin, built on the Spring Boot framework, using Maven for dependency management and packaging.
 
-**See also https://github.com/spring-guides/tut-spring-boot-kotlin for a more complete Spring Boot + Kotlin + JPA example.**
+## Getting Started
 
-You can launch the application with by running:
+### Dependencies
 
-		$ ./gradlew bootRun
+You'll need to install these programs to run this web service on your local machine:
 
-Make sure you have at least IntelliJ IDEA 2022.3 and Kotlin plugin 1.8.x.
-This project uses a [Gradle Kotlin DSL](https://docs.gradle.org/current/userguide/kotlin_dsl.html).
+-   Maven
+-   Kotlin
+-   OpenJDK
+-   MariaDB
 
-This project is Apache 2.0 licensed.
+### MariaDB Setup
+
+Set up MariaDB after first installing it
+
+```
+mariadb install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+```

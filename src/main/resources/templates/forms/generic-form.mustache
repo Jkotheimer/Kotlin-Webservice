@@ -1,0 +1,14 @@
+<form action="{{form.action}}" method="{{form.method}}">
+    {{#form.inputs}}
+    <div>
+        <label for="{{id}}">{{label}}:</label>
+        <input
+            type="{{type}}"
+            id="{{id}}"
+            name="{{id}}"
+            value="{{value}}"
+            {{#checked}}checked{{/checked}}
+        />
+    </div>
+    {{/form.inputs}}
+</form>

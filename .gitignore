@@ -1,5 +1,11 @@
-build/
+# IDE Config
 .idea/
-*.iml
-.gradle/
-/out/
+.vscode/
+
+# Build Output
+target/
+build/
+bin/
+
+# Secrets
+.secrets
